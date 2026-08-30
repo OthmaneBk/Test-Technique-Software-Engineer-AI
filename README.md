@@ -96,9 +96,8 @@ frontend/
 
 Le projet est conçu de manière modulaire, avec une séparation claire entre les responsabilités du backend et du frontend :
 
-- Le backend est découpé en modules fonctionnels : IA, services, contrôleurs, données, prompts et historique.
-- Le frontend est également structuré en composants et styles séparés pour isoler l’interface utilisateur, la logique de navigation et les appels API.
-
+- Le backend est découpé en modules fonctionnels : services, contrôleur, cache, interface, model et prompts.
+- Le frontend est également structuré en composants et styles séparés pour isoler l’interface utilisateur, la logique de navigation et les appels API (components, constants, css, router)
 
 ---
 
