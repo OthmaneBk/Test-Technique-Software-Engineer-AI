@@ -1,0 +1,6 @@
+expense_id,date,department,employee_name,amount,unit_price,category
+EXP-101,2026-08-10,Marketing,Alice Martin,150.00,150.00,Publicité
+EXP-102,2026-08-11,IT,Thomas Bernard,1299.99,1299.99,Matériel
+EXP-103,2026-08-12,RH,Claire Dubois,45.50,45.50,Fournitures
+EXP-104,2026-08-12,Sales,Lucas Petit,320.00,320.00,Déplacement
+EXP-105,2026-08-14,IT,Thomas Bernard,85.00,85.00,Logiciel

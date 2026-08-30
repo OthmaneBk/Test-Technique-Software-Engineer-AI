@@ -1,0 +1,88 @@
+:root {
+  --blue-500: #2b6bff;
+  --blue-600: #1c4fd6;
+  --purple-500: #8b5cf6;
+  --cyan-400: #22d3ee;
+  --ink-900: #0b1220;
+  --ink-700: #1b2540;
+  --glass-bg: rgba(255, 255, 255, 0.72);
+  --glass-border: rgba(255, 255, 255, 0.6);
+  --shadow-lg: 0 20px 45px -15px rgba(28, 43, 90, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  position: relative;
+  min-height: 100vh;
+  font-family: "Segoe UI", "Inter", system-ui, -apple-system, sans-serif;
+  color: var(--ink-900);
+  overflow-x: hidden;
+  background:
+    radial-gradient(60% 50% at 12% 8%, rgba(43, 107, 255, 0.35), transparent 60%),
+    radial-gradient(50% 45% at 90% 15%, rgba(139, 92, 246, 0.3), transparent 60%),
+    radial-gradient(55% 50% at 50% 100%, rgba(34, 211, 238, 0.22), transparent 60%),
+    linear-gradient(180deg, #f4f7ff 0%, #eef2fb 100%);
+}
+
+.app::before,
+.app::after {
+  content: "";
+  position: fixed;
+  width: 42vw;
+  height: 42vw;
+  border-radius: 50%;
+  filter: blur(90px);
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.55;
+}
+
+.app::before {
+  top: -10%;
+  left: -8%;
+  background: radial-gradient(circle, var(--blue-500), transparent 70%);
+  animation: float-blob 16s ease-in-out infinite;
+}
+
+.app::after {
+  bottom: -12%;
+  right: -6%;
+  background: radial-gradient(circle, var(--purple-500), transparent 70%);
+  animation: float-blob 20s ease-in-out infinite reverse;
+}
+
+@keyframes float-blob {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(4%, 6%) scale(1.08); }
+}
+
+.app__body {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 1.75rem;
+  padding: 0 2rem 2rem;
+  align-items: flex-start;
+}
+
+.app__main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+@media (max-width: 900px) {
+  .app__body {
+    flex-direction: column;
+    padding: 0 1rem 1.5rem;
+  }
+}

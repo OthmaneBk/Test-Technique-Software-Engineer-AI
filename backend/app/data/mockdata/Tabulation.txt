@@ -1,0 +1,4 @@
+transaction_id	date	product_category	quantity	unit_price
+TX-1001	2026-08-01	Électronique	2	149.99
+TX-1002	2026-08-02	Vêtements	5	29.50
+TX-1003	2026-08-02	Maison	1	89.00

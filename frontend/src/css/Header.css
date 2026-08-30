@@ -1,0 +1,116 @@
+.header {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  padding: 1.75rem 2rem;
+  background: linear-gradient(120deg, var(--blue-600), var(--blue-500) 45%, var(--purple-500));
+  box-shadow: var(--shadow-lg);
+}
+
+.header__marquee {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0.16;
+  user-select: none;
+}
+
+.header__marquee-track {
+  display: flex;
+  align-items: center;
+  animation: marquee-scroll 22s linear infinite;
+}
+
+.header__marquee-item {
+  font-size: 4.5rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  padding-right: 2.5rem;
+  text-transform: lowercase;
+}
+
+@keyframes marquee-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.header__content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.header__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.header__logo {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.01em;
+}
+
+.header__logo-accent {
+  color: #bfe0ff;
+}
+
+.header__subtitle {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  backdrop-filter: blur(6px);
+}
+
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.header__generate-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1.1rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.header__generate-btn:hover {
+  background: rgba(255, 255, 255, 0.24);
+  transform: translateY(-1px);
+}
+
+.header__generate-btn:active {
+  transform: translateY(0);
+}
+
+.header__error {
+  font-size: 0.8rem;
+  color: #ffe3e3;
+  background: rgba(0, 0, 0, 0.18);
+  padding: 0.3rem 0.6rem;
+  border-radius: 8px;
+}

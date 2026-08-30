@@ -1,0 +1,51 @@
+.data-import {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.data-import__file-label {
+  cursor: pointer;
+}
+
+.data-import__file-input {
+  display: none;
+}
+
+.data-import__file-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1.1rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.16);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.85rem;
+  backdrop-filter: blur(8px);
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.data-import__file-button::before {
+  content: "📂";
+}
+
+.data-import__file-button:hover {
+  background: rgba(255, 255, 255, 0.28);
+  transform: translateY(-1px);
+}
+
+.data-import__status {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.data-import__error {
+  font-size: 0.8rem;
+  color: #ffe3e3;
+  background: rgba(0, 0, 0, 0.18);
+  padding: 0.3rem 0.6rem;
+  border-radius: 8px;
+}
