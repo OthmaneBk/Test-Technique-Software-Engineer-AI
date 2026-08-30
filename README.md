@@ -147,7 +147,7 @@ GROQ_MODEL="openai/gpt-oss-120b"
 ```bash
 
 #avec FastAPI CLI :
-fastapi dev app/main.py (tu dois etre dans la racine du dossier backend/app/controller -> cd app/controller) 
+fastapi dev main.py (tu dois etre dans la racine du dossier backend/app/controller -> cd app/controller) 
 ```
 
 Le backend démarre sur **http://localhost:8000**
