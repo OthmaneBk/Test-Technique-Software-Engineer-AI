@@ -4,11 +4,11 @@
 
 ### deux fonctionnalités, soit Générer un dataset automatique, soit Importer un fichier CSV depuis l'interface principale
 
-### Générer le Dataset de Test automatique
+- ### Générer le Dataset de Test automatique
 
 faire npm run dev, après généré un dataset en cliquant sur ***Générer un dataset automatique*** qui se trouve au header de l'application
 
-### Import des données a partir des données crées par moi même
+- ### Import des données a partir des données crées par moi même
 
 sélectionner ***Importer un fichier CSV*** qui se trouve au header de l'application (pointe vers sur l'un des fichiers qui se trouvent dans -> backend/app/data/mockdata/{depenses.txt, E-commerce.txt, Point-virgule.txt et Tabulation.txt}
 
