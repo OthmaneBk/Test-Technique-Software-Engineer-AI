@@ -109,7 +109,7 @@ Le projet est conçu de manière modulaire, avec une séparation claire entre le
 - **Python 3.8+** (backend)
 - **Node.js 16+** (frontend)
 - **npm** 
-- Compte Groq avec **clé API** (voir `.env`)
+- Compte Groq avec **clé API** ( `.env` )
 
 ### Configuration Backend
 
@@ -132,8 +132,7 @@ pip install -r requirements.txt
 
 ### Variables d'Environnement
 
-Créer/modifier le fichier `.env` dans le dossier `backend/` :
-
+créer ce fichier au niveau du dossier backend
 ```env
 GROQ_API_KEY="votre_clé_api_groq_ici"
 GROQ_MODEL="openai/gpt-oss-120b"
