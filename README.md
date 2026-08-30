@@ -165,8 +165,11 @@ npm install
 ### Lancer le Frontend
 
 ```bash
+1- un nouveau terminal
+2- cd .\Test-Technique-Software-Engineer-AI\frontend\
 # Depuis le dossier frontend/
-npm run dev
+3- npm install
+4- npm run dev
 ```
 
 L'application est accessible sur **http://localhost:5173**
