@@ -104,6 +104,8 @@ Le projet est conçu de manière modulaire, avec une séparation claire entre le
 
 ## Démarrage Rapide
 
+faire git clone https://github.com/OthmaneBk/Test-Technique-Software-Engineer-AI.git
+
 ### Prérequis
 
 - **Python 3.8+** (backend)
