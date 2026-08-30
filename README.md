@@ -58,7 +58,7 @@ backend/
 │           └── data.csv
 │
 ├── requirements.txt
-└── .env                     # configuration locale (si présent)
+└── .env           
 ```
 
 ## Structure du Frontend
