@@ -191,7 +191,7 @@ sélectionner ***Importer un fichier CSV*** qui se trouve au header de l'applica
 |---------|----------|-------------|---------|
 | `GET` | `/data` | Récupérer toutes les données | Retourne le dataset chargé |
 | `POST` | `/ask` | Poser une question IA | `{"question": "donne moi les informations sur le client dont le prix est 640.52"}` |
-| `POST` | `/import/file` | Charger un fichier CSV | depuis le dossier backend\app\data\fake_data, il y'a 4 fichiers de type txt de modèles de données différents |
+| `POST` | `/import/file` | Charger un fichier CSV | depuis le dossier backend/app/data/mockdata/, il y'a 4 fichiers de type txt de modèles de données différents |
 | `GET` | `/generatefile` | Charger des datasets automatique |  |
 
 ---
