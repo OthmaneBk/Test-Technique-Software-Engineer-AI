@@ -10,7 +10,7 @@ clique sur ***Générer un dataset automatique*** qui se trouve au header de l'a
 
 - ### Import des données a partir des données crées par moi même
 
-sélectionner ***Importer un fichier CSV*** qui se trouve au header de l'application (pointe vers sur l'un des fichiers qui se trouvent dans -> backend/app/data/mockdata/{depenses.txt, E-commerce.txt, Point-virgule.txt et Tabulation.txt}
+clique et sélectionne depuis regarde le ***dossier*** qui est mentionné à la fin de la phrase ***Importer un fichier CSV*** qui se trouve au header de l'application (pointe vers sur l'un des fichiers qui se trouvent dans -> ***dossier*** backend/app/data/mockdata/{depenses.txt, E-commerce.txt, Point-virgule.txt et Tabulation.txt}
 
 
 ## les genres de questions a posées
