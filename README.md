@@ -6,7 +6,7 @@
 
 - ### Générer le Dataset de Test automatique
 
-faire npm run dev, après généré un dataset en cliquant sur ***Générer un dataset automatique*** qui se trouve au header de l'application
+clique sur ***Générer un dataset automatique*** qui se trouve au header de l'application
 
 - ### Import des données a partir des données crées par moi même
 
