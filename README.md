@@ -1,8 +1,8 @@
 # Predylics — Application d'Analyse de Données IA
 
-#####	le dataset utilisé	ou	les	instructions	permettant	de	le	générer
+## le dataset utilisé	ou	les	instructions	permettant	de	le	générer
 
-## deux fonctionnalités, soit Générer un dataset automatique, soit Importer un fichier CSV depuis l'interface principale
+### deux fonctionnalités, soit Générer un dataset automatique, soit Importer un fichier CSV depuis l'interface principale
 
 ### Générer le Dataset de Test automatique
 
