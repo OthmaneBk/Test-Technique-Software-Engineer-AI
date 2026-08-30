@@ -133,7 +133,7 @@ pip install -r requirements.txt
 
 ### Variables d'Environnement
 
-créer ce fichier au niveau du dossier backend
+créer ce fichier a l'intérieur du dossier backend
 ```env
 GROQ_API_KEY="votre_clé_api_groq_ici"
 GROQ_MODEL="openai/gpt-oss-120b"
@@ -147,7 +147,7 @@ GROQ_MODEL="openai/gpt-oss-120b"
 ```bash
 
 #avec FastAPI CLI :
-fastapi dev app/main.py (tu dois etre dans la racine du dossier controller) 
+fastapi dev app/main.py (tu dois etre dans la racine du dossier backend/app/controller -> cd app/controller) 
 ```
 
 Le backend démarre sur **http://localhost:8000**
