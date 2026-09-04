@@ -1,3 +1,6 @@
+## Suivre les instructions du pdf -> ***des éventuelles instructions pour exécuter le pojet.pdf*** pour exécuter le projet 
+
+
 ## les genres de questions a posées
 
 - 1- donne moi les informations sur la transaction dont le prix est (copier/coller un prix depuis le tableau)
